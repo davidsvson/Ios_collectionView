@@ -15,6 +15,8 @@
 		63C3F4CA23E313F3009AA0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C3F4C823E313F3009AA0BF /* LaunchScreen.storyboard */; };
 		63C3F4D523E313F3009AA0BF /* CollectionTempTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3F4D423E313F3009AA0BF /* CollectionTempTests.swift */; };
 		63C3F4E023E313F3009AA0BF /* CollectionTempUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3F4DF23E313F3009AA0BF /* CollectionTempUITests.swift */; };
+		63C3F4EF23E3149D009AA0BF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C3F4ED23E3149D009AA0BF /* CollectionViewCell.swift */; };
+		63C3F4F023E3149D009AA0BF /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C3F4EE23E3149D009AA0BF /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		63C3F4DB23E313F3009AA0BF /* CollectionTempUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionTempUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C3F4DF23E313F3009AA0BF /* CollectionTempUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTempUITests.swift; sourceTree = "<group>"; };
 		63C3F4E123E313F3009AA0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C3F4ED23E3149D009AA0BF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		63C3F4EE23E3149D009AA0BF /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				63C3F4BD23E313F0009AA0BF /* AppDelegate.swift */,
 				63C3F4BF23E313F0009AA0BF /* SceneDelegate.swift */,
 				63C3F4C123E313F0009AA0BF /* ViewController.swift */,
+				63C3F4ED23E3149D009AA0BF /* CollectionViewCell.swift */,
+				63C3F4EE23E3149D009AA0BF /* CollectionViewCell.xib */,
 				63C3F4C323E313F0009AA0BF /* Main.storyboard */,
 				63C3F4C623E313F3009AA0BF /* Assets.xcassets */,
 				63C3F4C823E313F3009AA0BF /* LaunchScreen.storyboard */,
@@ -234,6 +240,7 @@
 			files = (
 				63C3F4CA23E313F3009AA0BF /* LaunchScreen.storyboard in Resources */,
 				63C3F4C723E313F3009AA0BF /* Assets.xcassets in Resources */,
+				63C3F4F023E3149D009AA0BF /* CollectionViewCell.xib in Resources */,
 				63C3F4C523E313F0009AA0BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				63C3F4C223E313F0009AA0BF /* ViewController.swift in Sources */,
 				63C3F4BE23E313F0009AA0BF /* AppDelegate.swift in Sources */,
+				63C3F4EF23E3149D009AA0BF /* CollectionViewCell.swift in Sources */,
 				63C3F4C023E313F0009AA0BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
